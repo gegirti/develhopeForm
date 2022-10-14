@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <label for="email" placeholder="example@example.com">Email:</label>
+      <input type="email" name="email" id="email" />
+      <label for="password" aria-placeholder="***">Password:</label>
+      <input type="password" name="password" id="password" />
+      <label for="first_name" placeholder="Please enter your first name"
+        >First name</label
+      >
+      <input type="text" name="first_name" id="first_name" />
+      <label for="last_name" placeholder="Please enter your last name"
+        >Last name</label
+      >
+      <input type="text" name="last_name" id="last_name" />
+      <label for="date_of_birth">Date of birth</label>
+      <input type="date" name="date_of_birth" id="date_of_birth" />
+      <label for="telephone_number">Telephone number</label>
+      <input type="tel" name="telephone_number" id="telephone_number" />
+      <p>Please choose your plan</p>
+      <label for="plan" id="free_plan">Free plan</label>
+      <input type="radio" name="plan" value="free_plan" />
+      <label for="plan" id="basic_plan">Basic plan</label>
+      <input type="radio" name="plan" value="basic_plan" />
+      <label for="plan" id="double_plan">Double plan</label>
+      <input type="radio" name="plan" value="double_plan" />
+      <label for="plan" id="group_plan">Group plan</label>
+      <input type="radio" name="plan" value="group_plan" />
+      <label for="plan">Pro plan</label>
+      <input type="checkbox" name="plan" value="pro_plan" />
+      <label for="credit_card">Credit card number</label>
+      <input type="number" name="credit_card" id="credit_card" />
+      <label for="cvc">CVC</label>
+      <input type="number" name="cvc" id="cvc" />
+      <label for="exp_date">Expiration date</label>
+      <input type="month" name="exp_date" id="exp_date" />
+      <label for="billing_address">Billing address</label>
+      <input type="text" name="billing_address" id="billing_address" />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
